@@ -12,15 +12,10 @@ int main() {
 
     cin >> str;
     checek = str;
-
     reverse(checek.begin(), checek.end());
 
     if (str == checek) cout << 1 << "\n";
     else cout << 0 << "\n";
-    
-
- 
-    
  
     return 0;
 }
